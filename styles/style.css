@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: rgb(36, 35, 35);
+}
+
+.leftArea {
+    height: 800px;
+    position: relative;
+}
+
+.picText {
+    position: absolute;
+    font-size: 40px;
+    bottom: 40px;
+    padding-left: 100px;
+    color: white;
+    font-weight: bolder;
+}
+
+.picText2 {
+    position: absolute;
+    font-size: 25px;
+    bottom: 10px;
+    padding-left: 160px;
+    color: green;
+}
+
+.leftArea img {
+    width: 450px;
+    height: 790px;
+    float: left;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+
+/* right area content div  */
+
+.rightArea {
+    width: 550px;
+    float: right;
+    margin-top: -730px;
+    bottom: 50px;
+}
+
+h1 {
+    padding: 20px 15px;
+    color: white;
+    font-size: 60px;
+}
+
+#para {
+    padding: 15px;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+p {
+    color: rgb(221, 219, 219);
+    padding: 15px;
+}
+
+h2 {
+    padding: 20px 15px;
+    color: white;
+    font-size: 35px;
+}
+
+#innerContent {
+    float: right;
+    width: 550px;
+    margin-top: -420px;
+}
+
+.colOne {
+    width: 275px;
+}
+
+.fa-desktop,
+.fa-database,
+.fa-shield,
+.fa-rocket {
+    padding-left: 20px;
+    color: green;
+}
+
+h3 {
+    padding: 15px;
+    color: white;
+}
+
+.columnPara {
+    padding-left: 15px;
+}
+
+.columnTwo {
+    width: 275px;
+    float: right;
+    margin-top: -340px;
+}
